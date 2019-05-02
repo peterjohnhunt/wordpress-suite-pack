@@ -1,0 +1,22 @@
+{
+    "name": "wordpress-suite-pack",
+    "displayName": "WordPress Suite Pack",
+    "description": "All WordPress Suite Extensions",
+    "version": "1.0.0",
+    "publisher": "peterjohnhunt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/peterjohnhunt/vscode-wordpress-suite-pack.git"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionDependencies": [ 
+        "peterjohnhunt.wordpress-suite",
+        "peterjohnhunt.wordpress-suite-debug-watcher",
+        "peterjohnhunt.wordpress-suite-wp-cli"
+    ]
+}
